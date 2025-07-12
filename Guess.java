@@ -5,7 +5,7 @@ public class Guess_using_loop {
         // Mini project
         Scanner sc=new Scanner(System.in);
         int my_number=(int)(Math.random()*10);
-        int user_number;
+        int user_number=0;
         do{
             System.out.println("Enter Your Guess :");
             user_number=sc.nextInt();
